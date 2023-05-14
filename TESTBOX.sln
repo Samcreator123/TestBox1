@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TESTBOX", "TESTBOX\TESTBOX.csproj", "{ADFFE711-D5B0-4773-9FAF-ED34243DC2CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTestBox", "ConsoleTestBox\ConsoleTestBox.csproj", "{58EC7B92-BDD1-4CD7-AB14-C4E878EFE025}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KafkaUtility", "D:\實習的東東\元富\非需求的\DDD練習\KafkaUtility\KafkaUtility\KafkaUtility\KafkaUtility.csproj", "{27219CD9-D3C0-46CD-9812-91D08607E49D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQIsolationLayer", "MQIsolationLayer\MQIsolationLayer.csproj", "{8D5DAE8F-44F0-40A4-8365-A4C41B78C2E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandToolBox", "D:\實習的東東\元富\非需求的\DDD練習\KafkaUtility\CommandToolBox\CommandToolBox\CommandToolBox.csproj", "{AD3E01F5-D2F7-4CE8-BA7D-F255129DC9AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADFFE711-D5B0-4773-9FAF-ED34243DC2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFFE711-D5B0-4773-9FAF-ED34243DC2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFFE711-D5B0-4773-9FAF-ED34243DC2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFFE711-D5B0-4773-9FAF-ED34243DC2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58EC7B92-BDD1-4CD7-AB14-C4E878EFE025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58EC7B92-BDD1-4CD7-AB14-C4E878EFE025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58EC7B92-BDD1-4CD7-AB14-C4E878EFE025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58EC7B92-BDD1-4CD7-AB14-C4E878EFE025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27219CD9-D3C0-46CD-9812-91D08607E49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27219CD9-D3C0-46CD-9812-91D08607E49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27219CD9-D3C0-46CD-9812-91D08607E49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27219CD9-D3C0-46CD-9812-91D08607E49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D5DAE8F-44F0-40A4-8365-A4C41B78C2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5DAE8F-44F0-40A4-8365-A4C41B78C2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5DAE8F-44F0-40A4-8365-A4C41B78C2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5DAE8F-44F0-40A4-8365-A4C41B78C2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD3E01F5-D2F7-4CE8-BA7D-F255129DC9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3E01F5-D2F7-4CE8-BA7D-F255129DC9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3E01F5-D2F7-4CE8-BA7D-F255129DC9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3E01F5-D2F7-4CE8-BA7D-F255129DC9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CC9C833-8C86-40F9-A920-CBC311F8CB6B}
+	EndGlobalSection
+EndGlobal

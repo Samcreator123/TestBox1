@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="7.0.1" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.5" />
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="7.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.6.104" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="D:\實習的東東\元富\非需求的\DDD練習\KafkaUtility\CommandToolBox\CommandToolBox\CommandToolBox.csproj" />
+    <ProjectReference Include="D:\實習的東東\元富\非需求的\DDD練習\KafkaUtility\KafkaUtility\KafkaUtility\KafkaUtility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ToolBox">
+      <HintPath>..\..\NewbieGiftPackage\ToolBox\bin\Release\netcoreapp3.1\ToolBox.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Compile Update="DataTableAndDataSet\DBScheme.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DBScheme.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Update="DataTableAndDataSet\DBScheme.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBScheme.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+
+</Project>
